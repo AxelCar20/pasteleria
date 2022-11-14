@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Icon_pastel.ico">
+    <link rel="stylesheet" href="./estilosPastelero.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@300&family=Quintessential&display=swap" rel="stylesheet">
+    <title>Panel administrativo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white;">
+            <div class="container-fluid" style="background-color: white;">
+                <a href="https://www.facebook.com" style="margin-left:5%">
+                    <img style="width:50px; height:auto" src="../img/Logo_cakeshop.png">
+                </a>
+                <button class="navbar-toggler" src="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" style="margin-left:10%">
+                        <a class="nav-link active" aria-current="page" href="./indexPastelero.html">Panel de control</a>
+                        <a class="nav-link" href="./HistorialPedidos.html">Pedidos</a>
+                        <a class="nav-link" href="./ingredientes.html">Inventario</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+       </header>
+
+       <!-Esta section es para el panel de control-!>
+       <section>
+           
+           <div class="DivPanelControl">
+               <div class="TarjetaPanelControl" >
+                       <div class="TituloT" >Pastel mediano (18 porciones)</div>
+                       <a href="../img/adorno_girasoles.jpg"></a>
+                       <div class="BodyT" style="--i:url('../img/adorno_girasoles.jpg')">         
+                           <div class="ContentT">
+                               <h1 class="Titulo" style="font-size: 25px;">Pastel mediano</h1>
+                               <br>
+                               <br>
+                               <p  style="font-size: 12px;">
+                                   Por este mes el pastel mediano cuenta con un 20% de DESCUENTO
+                                   en todos su sabores.
+                               </p>
+                               <br>
+                               <br>
+                               <br>
+                               <p  style="font-size: 8px; text-align: center;">
+                                   *Válido hasta el 31 de octubre. Aplican restricciones.
+                               </p>
+                           </div>     
+                       </div> 
+                       <br>
+                       <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>
+               </div>  
+               
+               <div class="TarjetaPanelControl">
+                       <div class="TituloT">CupCakes (5 unidades)</div>
+                       <div class="BodyT" style="--i:url('../img/cupcakes(5).jpg')">         
+                           <div class="ContentT">
+                               <h1 class="Titulo" style="font-size: 25px;">Pastel mediano</h1>
+                               <br>
+                               <br>
+                               <p  style="font-size: 12px;">
+                                   Por este mes los cupcakes de 5 unidades tendrán un DESCUENTO de
+                                   15%, aprovecha esta oferta antes que acabe.
+                               </p>
+                               <br>
+                               <br>
+                               <br>
+                               <p  style="font-size: 8px;">
+                                   *Válido hasta el 31 de octubre. Aplican restricciones.
+                               </p>
+                           </div>       
+                       </div> 
+                       <br>
+                       
+                       <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>            
+               </div>  
+           </div>
+          </section>
+          <!-Fin section panel de control-!>
+
+          
+
+       <footer class="footer bg-primary text-white text-center text-lg-start" >
+        <div class="text-center p-3" style="background-color: #A61C3C; font-size: medium; text-align:center;">
+           <div class="row1">
+            <div class="main1" style="flex: 100%;">
+                <div style="height: auto; display: inline;">
+                    <h1 class="Titulo" style="font-size: 20px; font-family: Arial, Helvetica, sans-serif; display: inline;"> Pastelería DEIAX</h1>
+                </div> 
+                <div id="hola" style="display: inline; height: auto ">
+                    <img src="../img/Logo_Invertido.png" style="width: 50px;">
+                </div>        
+            </div>
+          </div>
+          <hr>
+          <h1 class="TitulosFooter" style="font-size:10px;  text-align: left;">© 2022 DEIAX.com. Todos los derechos reservados</h1>        
+        </footer>
+</body>
+</html>

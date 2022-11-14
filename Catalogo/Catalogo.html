@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../img/Icon_pastel.ico">
+        <link rel="stylesheet" href="../estilos.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <script src="../Scripts/funciones.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@300&family=Quintessential&display=swap" rel="stylesheet">
+        <title>Catálogo</title>
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white;">
+        <div class="container-fluid" style="background-color: white;">
+            <a href="https://www.facebook.com" style="margin-left:5%">
+                <img style="width:200px; height:auto" src="../img/Logo_cakeshop.png">
+            </a>
+            <button class="navbar-toggler" src="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="margin-left:10%">     
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="../Catalogo/Catalogo.html">Catálogo</a>
+                    <a class="nav-link" href="#">Pedidos</a>
+                    <a class="nav-link" href="#">Contáctenos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-Esta section es para las promociones pasteles-!>
+    <section>
+        <h1 class="Titulo">Promociones del mes</h1>
+        <div class="DivPromociones">
+            <div class="TarjetaTP" >
+                    <div class="TituloT" >Pastel mediano (18 porciones)</div>
+                    <div class="BodyT" style="--i:url('../Pasteleria/img/Cake mediano.jpg')">         
+                        <div class="ContentT">
+                            <h1 class="Titulo" style="font-size: 25px;">Pastel mediano</h1>
+                            <br>
+                            <br>
+                            <p  style="font-size: 12px;">
+                                Por este mes el pastel mediano cuenta con un 20% de DESCUENTO
+                                en todos su sabores.
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                            <p  style="font-size: 8px; text-align: center;">
+                                *Válido hasta el 31 de octubre. Aplican restricciones.
+                            </p>
+                        </div>     
+                    </div> 
+                    <br>
+                    <p  style="color: #A61C3C; font-weight: bold; font-size: larger;">
+                        Precio: $288
+                    </p>
+                    <p  style="color: #A61C3C; font-weight: bold; font-size: medium;">
+                        Antes: <del> $360 </del>
+                    </p>
+                    <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>
+            </div>  
+            
+            <div class="TarjetaTP">
+                    <div class="TituloT">CupCakes (5 unidades)</div>
+                    <div class="BodyT" style="--i:url('../Pasteleria/img/cupcakes(5).jpg')">         
+                        <div class="ContentT">
+                            <h1 class="Titulo" style="font-size: 25px;">Pastel mediano</h1>
+                            <br>
+                            <br>
+                            <p  style="font-size: 12px;">
+                                Por este mes los cupcakes de 5 unidades tendrán un DESCUENTO de
+                                15%, aprovecha esta oferta antes que acabe.
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                            <p  style="font-size: 8px;">
+                                *Válido hasta el 31 de octubre. Aplican restricciones.
+                            </p>
+                        </div>       
+                    </div> 
+                    <br>
+                    <p  style="color: #A61C3C; font-weight: bold; font-size: larger;">
+                        Precio: $170
+                    </p>
+                    <p  style="color: #A61C3C; font-weight: bold; font-size: medium;">
+                        Antes: <del> $200 </del>
+                    </p>
+                    <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>            
+            </div>  
+        </div>
+       </section>
+       <!-Fin section promociones pasteles-!>
+
+       <hr>
+       <!-Esta section es para los tamaños pasteles-!>
+       <section>
+        <h1 class="Titulo">Variedad de tamaños</h1>
+        <div class="DivPromociones">
+            <div class="TarjetaCA" >
+                    <div class="TituloT" >Pastel grande (30 porc.)</div>
+                    <div class="BodyT" style="--i:url('../Pasteleria/img/Cake grande.jpg')">         
+                        <div class="ContentT">
+                            <h1 class="Titulo" style="font-size: 20px;">Pastel grande</h1>
+                            <br>
+                            <br>
+                            <p  style="font-size: 12px;">
+                                Nuestro pastel grande de hasta 30 porciones, es perfecto para sus grandes eventos
+                                y que sus invitados se deleiten con nustro sabor.
+                            </p>
+                            <br>
+                            <br>
+                            <p  style="font-size: 8px;">
+                                * Aplican restricciones.
+                            </p>
+                        </div>    
+                    </div> 
+                    <br>
+                    <p  style="color: #A61C3C; font-weight: bold; font-size: larger;">
+                        Precio: $420
+                    </p>
+                    <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>  
+            </div>
+
+            
+            <div class="TarjetaCA">
+                    <div class="TituloT">Pastel mediano (18 porciones)</div>
+                    <div class="BodyT" style="--i:url('../Pasteleria/img/Cake mediano.jpg')"">         
+                        <div class="ContentT">
+                            <h1 class="Titulo" style="font-size: 20px;">Pastel mediano</h1>
+                            <br>
+                            <br>
+                            <p  style="font-size: 12px;">
+                                Si tienes un evento pequeño, sorprende a tus amigos con nuestros queque de 18
+                                porciones.
+                            </p>
+                            <br>
+                            <br>
+                            <p  style="font-size: 8px;">
+                                * Aplican restricciones.
+                            </p>
+                        </div>       
+                    </div> 
+                    <br>
+                    <p  style="color: #A61C3C; font-weight: bold; font-size: larger;">
+                        Precio: $360
+                    </p>
+                    <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>  
+                </div>  
+                <div class="TarjetaCA">
+                    <div class="TituloT">Pastel pequeño (10 porciones)</div>
+                    <div class="BodyT" style="--i:url('../Pasteleria/img/cake_pequeno.jpg')"">         
+                        <div class="ContentT">
+                            <h1 class="Titulo" style="font-size: 20px;">Pastel pequeño</h1>
+                            <br>
+                            <br>
+                            <p  style="font-size: 12px;">
+                                Si quieres regalarle un queque a tu pareja por un evento especial, nuestro pastel 
+                                pequeño es ideal paar esta ocación, compralo ya.
+                            </p>
+                            <br>
+                            <br>
+                            <p  style="font-size: 8px;">
+                                * Aplican restricciones.
+                            </p>
+                        </div>       
+                    </div>
+                    <br> 
+                    <p  style="color: #A61C3C; font-weight: bold; font-size: larger;">
+                        Precio: $175
+                    </p>
+                    <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>  
+                </div>            
+            </div>  
+       </section>
+       <!-Fin section tamaños pasteles-!>
+
+       <hr>
+
+       <!-Esta section es para los sabores pasteles-!>
+       <section>
+            <h1 class="Titulo">Sabores para elegir</h1>
+            <div class="DivTable">     
+                    <table class="tableSabores">
+                        <tr>
+                            <th>Sabor</th>
+                            <th>Descripción</th>
+                            <th>Costo adicional</th>
+                            <th>Producto</th>
+                        </tr>
+                        <tr>
+                            <td class="TituloSabor">Vainilla</td>
+                            <td>Deleitate con este asombroso pastel, cubierto de vainilla con un
+                                excelente relleno.
+                            </td>
+                            <td>$0</td>
+                            <td><img src="../img/cake_vainilla.jpg" class="imgSabores"></td>
+                        </tr>
+                        <tr>
+                            <td class="TituloSabor">Cholcolate</td>
+                            <td>El chocolate nos gusta a todos, es por eso que nuestro pastel de 
+                                chocolate es el mejor por su cubierto y su excelente relleno.
+                            </td>
+                            <td>$0</td>
+                            <td><img src="../img/cake_chocolate.jpg" class="imgSabores"></td>
+                        </tr>
+                        <tr>
+                            <td class="TituloSabor">Limón</td>
+                            <td>Para los amantes de los cítricos y los sabores un poco más diferentes, 
+                                les ofrecemos nuestro fabuloso pastel de limón.
+                            </td>
+                            <td>$0</td>
+                            <td><img src="../img/cake_limon.jpg" class="imgSabores"></td>
+                        </tr>
+                        <tr>
+                            <td class="TituloSabor">Fresa</td>
+                            <td>Para los amantes de las fresas, nuestro pastel sabor a fresa será su mejor 
+                                opción.
+                            </td>
+                            <td>$0</td>
+                            <td><img src="../img/cake_fresa.jpg" class="imgSabores"></td>
+                        </tr>
+                        <tr>
+                            <td class="TituloSabor">Chantilly</td>
+                            <td>El pastel más clásico de todos es el chantilly, te sorprenderá su fabuloso sabor y relleno.
+                            </td>
+                            <td>$0</td>
+                            <td><img src="../img/cake_chantilly.jpg" class="imgSabores"></td>
+                        </tr>
+                        <tr>
+                            <td class="TituloSabor">Mora</td>
+                            <td>Nuestro nuevo sabor de mora es el pastel que más te va a sorprender, anímate a probarlo.
+                            </td>
+                            <td>$10</td>
+                            <td><img src="../img/cake_mora.jpg" class="imgSabores"></td>
+                        </tr>
+                        <tr>
+                            <td class="TituloSabor">Frutas</td>
+                            <td>El pastel más clásico de todos es el chantilly, te sorprenderá su fabuloso sabor y relleno.
+                            </td>
+                            <td>$10</td>
+                            <td><img src="../img/cake_frutas.jpg" class="imgSabores"></td>
+                        </tr>
+                    </table>
+                </div>            
+       </section>
+       <section>
+        <div class="row1">
+            <div class="side1" style="flex: 40%; padding: 5%;">
+                <img  class="imgInicio" style="width: 80%;" src="../img/personafeliz.jpg" alt="">
+            </div>
+            <div class="main1" style="flex: 55%; padding-top: 10%;">          
+                <h1 class="TituloPasteles" style="font-size: 30px; color: #A61C3C;">¿Ya combinaste tus dos sabores favoritos en un mismo pastel?</h1>
+                <br>
+                <p class="Textos">En DEIAX lo podes hacer y sorprender a  tus amigos o familia, que el sabor no sea excusa para que todos puedan comer.</p>
+                <br>
+                <button class="btnVerMas" onclick="redirectPedidoP2();">Comprar</button>
+                <br>
+                <p class="Textos" style="font-size: 12px">* Aplican restricciones.
+                </p>
+            </div>
+        </div>
+   </section>
+   <!-Fin section sabores pasteles-!>
+       
+       <hr>
+       <!-Esta section es para los adornos -!>
+       <section>
+        <h1 class="Titulo">Sabores para elegir</h1>
+        <div class="DivTable">     
+                <table class="tableSabores">
+                    <tr>
+                        <th>Adorno</th>
+                        <th>Descripción</th>
+                        <th>Costo adicional</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td class="TituloSabor">Graduaciones</td>
+                        <td>Sorprende a esa persona que se acaba de graduar con nuestro nuevo adorno 
+                            de graduación. 
+                        </td>
+                        <td>$20</td>
+                        <td><img src="../img/adorno_graduacion.jpg" class="imgSabores"></td>
+                    </tr>
+                    <tr>
+                        <td class="TituloSabor">Girasoles</td>
+                        <td>Sorprende a quien sea con nuestro pastel adornado de girasoles.
+                        </td>
+                        <td>$20</td>
+                        <td><img src="../img/adorno_girasoles.jpg" class="imgSabores"></td>
+                    </tr>
+                    <tr>
+                        <td class="TituloSabor">Cumpleaños</td>
+                        <td>En DEIAX puedes obtener tu pastel para sorprender a todos en esa 
+                            fiesta de cumpleaños.
+                        </td>
+                        <td>$5</td>
+                        <td><img src="../img/adorno_cumple.jpg" class="imgSabores"></td>
+                    </tr>
+                    <tr>
+                        <td class="TituloSabor">Dedicación</td>
+                        <td>Si es un momento especial y quieres que el pastel tenga una dedicatoria
+                            única. 
+                        </td>
+                        <td>$2.5</td>
+                        <td><img src="../img/adorno_dedicatoria.jpeg" class="imgSabores"></td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+   </section>
+   <!-Fin section adornos -!>
+       
+   <hr>
+
+   <!-Esta section es para los productos extra -!>
+    <section>
+            <h1 class="Titulo">Productos Extras</h1>
+            <div class="DivPromociones">
+                <div class="TarjetaPE" >
+                        <div class="TituloT" >Cupcakes (5 unidades)</div>
+                        <div class="BodyT" style="--i:url('../Pasteleria/img/cupcakes(5).jpg')">         
+                            <div class="ContentT">
+                                <h1 class="Titulo" style="font-size: 25px;">Cupcakes</h1>
+                                <br>
+                                <br>
+                                <p  style="font-size: 12px;">
+                                    El mejor regalo para alguien en esta época son nuestros fabulosos cupcakes.
+                                </p>
+                                <p  style="font-size: 18px;">
+                                    ¿Ya los probaste?
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <p  style="font-size: 8px;">
+                                    * Aplican restricciones.
+                                </p>
+                            </div>    
+                        </div> 
+                        <br>
+                        <p  style="color: #A61C3C; font-weight: bold; font-size: larger;">
+                            Precio: $200
+                        </p>
+                        <button class="btnVerMas" onclick="redirectPedidoP2();"> Comprar</button>  
+                </div>
+            </div>
+       </section>
+       <!-Fin section productos extra-!>
+
+       <!-Inicio Footer-!>
+       <footer class="footer bg-primary text-white text-center text-lg-start" >
+        <div class="text-center p-3" style="background-color: #A61C3C; font-size: medium; text-align:center; padding:5%">
+            <div class="row1">
+            <div class="side1" style="flex: 15%; padding: 2%;">
+               
+                <h1 class="TituloPasteles" style="font-size: 35px; ">Pastelería</h1>
+                <h1 class="TituloPasteles" style="font-size: 35px;  font-family: Arial, Helvetica, sans-serif; ">DEIAX</h1>
+                <img src="../img/Logo_Invertido.png" style="width: 50%;">
+                
+            </div>
+            <div class="side1" style="flex: 25%; padding: 2%; display: block;">
+                <h1 class="TitulosFooter">Información</h1>
+                <div>
+                    <img class="imgIcons" src="../img/Icon_telefono.png">
+                    <p class="TextosFooter">2598-7810  || 2541-7865</p>
+                </div>   
+                <br>
+                <div >
+                    <img class="imgIcons" src="../img/Icon_correo.png">
+                    <p class="TextosFooter">pasteleria.deiax@deiax.cr.co</p>
+                </div>
+                <br>
+                <div >
+                    <img class="imgIcons" src="../img/Icon_ubicacion.png">
+                    <p class="TextosFooter">150 metros norte de la Municipalidad de Cartago.</p>
+                </div>
+                <br>
+                <div >
+                    <img class="imgIcons" src="../img/Icon_horarios.png">
+                    <p class="TextosFooter">Lunes a viernes 11:30am a 8:00pm || Sábados y domingos de 1:00pm a 6:00pm</p>
+                </div>
+            </div>   
+               
+            <div class="side1" style="flex: 40%; padding: 2%;">
+                <h1 class="TitulosFooter" style="text-align: left;" >Redes sociales</h1>
+                <br>
+                <a href="https://www.facebook.com" style="display: block;">
+                    <img class="imgRedesS" src="../img/Logo_Facebook.png">
+                </a>
+                
+                <a href="https://www.instagram.com/">
+                    <img class="imgRedesS" src="../img/Logo_IG.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=84545117">
+                    <img class="imgRedesS" src="../img/Logo_WhatsApp.png">
+                </a>
+            </div>
+            </div>
+            <hr>
+            <h1 class="TitulosFooter" style="font-size:14px;  text-align: center;">© 2022 DEIAX.com. Todos los derechos reservados.</h1>  
+        </div>
+    </footer>
+    <!-Fin Footer-!>
+</body>
+</html>

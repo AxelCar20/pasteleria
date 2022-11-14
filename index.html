@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Pasteleria/img/Icon_pastel.ico">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@300&family=Quintessential&display=swap" rel="stylesheet">
+    <script src="./Scripts/funciones.js"></script>
+    <title>DEIAX Cake</title>
+</head>
+
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white;">
+        <div class="container-fluid" style="background-color: white;">
+            <a href="https://www.facebook.com" style="margin-left:5%">
+                <img style="width:200px; height:auto" src="./img/Logo_cakeshop.png">
+            </a>
+            <button class="navbar-toggler" src="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="margin-left:10%">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link" href="./Catalogo/Catalogo.html">Catálogo</a>
+                    <a class="nav-link" href="#">Pedidos</a>
+                    <a class="nav-link" href="#">Contáctenos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+   </header>
+   <section>
+    <h1 class="Titulo">Pastelería DEIAX</h1>
+    <br>
+    <br>
+    <div style="width: 100%; height: auto">
+        <img  class="imgInicio"  src="./img/Cake_shop.jpg" alt="">
+    </div>   
+   </section>
+
+   <br>
+   <br>
+   <section >
+    <h1 class="Titulo">Productos más vendidos</h1>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-lg-4" style="margin-bottom: 5%; ">
+                <div class="panel panel-info" style="border-color: red; border-radius: 5%;">
+                    <div class="panel-heading" style="font-size: 20px; text-align: center; background-color: #92BFB1; color:white; border-radius: 5%;">Pastel grande (30 porc.)</div>
+                    <br />
+                    <div class="panel-body" style="align-items: center;">
+            
+                        <img class="imgCatalogo" src="./img/Cake grande.jpg" />
+                        <br />
+                        <br />
+            
+                        <button class="btnVerMas" onclick="redirectCatalogo()"> + Ver más</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4" style="margin-bottom: 5%;">
+                <div class="panel panel-info" style="border-color: #92BFB1; border-radius: 5%;" >
+                    <div class="panel-heading" style="font-size: 20px; text-align: center; background-color: #92BFB1; color:white; border-radius: 5%;">Pastel Mediano (18 porciones)</div>
+                    <br />
+                    <div class="panel-body" style="align-items: center;">
+            
+                        <img class="imgCatalogo" src="./img/Cake mediano.jpg" />
+                        <br />
+                        <br />
+            
+                        <button class="btnVerMas" onclick="redirectCatalogo()"> + Ver más</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4" style="margin-bottom: 5%;">
+                <div class="panel panel-info">
+                    <div class="panel-heading" style="font-size: 20px; text-align: center; background-color: #92BFB1; color:white; border-radius: 5%;">Pastelito (CupCake)</div>
+                    <br />
+                    <div class="panel-body">
+                        <img class="imgCatalogo" src="./img/cupcake.jpg" />
+                        <br />
+                        <br />     
+                        <button class="btnVerMas" onclick="redirectCatalogo()"> + Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <hr>
+   <section>
+        <div class="row1">
+            <div class="side1" style="flex: 40%; padding: 5%;">
+                <img  class="imgInicio" style="width: 80%;" src="./img/Cake_anuncio.jpg" alt="">
+            </div>
+            <div class="main1" style="flex: 55%; padding-top: 10%;">          
+                <h1 class="TituloPasteles" style="font-size: 60px; color: #A61C3C;">Pastel de Frutos</h1>
+                <br>
+                <p class="Textos">Solo por este mes el pastel más amado por los clientes vuelve, no te olvides de venir adquirirlo.</p>
+                <br>
+                <button class="btnVerMas" onclick="redirectPedido();">Adquirir</button>
+                <br>
+                <p class="Textos" style="font-size: 12px">*Válido hasta el 31 de octubre a las 23:30 pm, aplican restricciones.
+                </p>
+            </div>
+        </div>
+   </section>
+
+
+
+<footer class="footer bg-primary text-white text-center text-lg-start" >
+    <div class="text-center p-3" style="background-color: #A61C3C; font-size: medium; text-align:center; padding:5%">
+       <div class="row1">
+        <div class="side1" style="flex: 15%; padding: 2%;">
+           
+            <h1 class="TituloPasteles" style="font-size: 35px; ">Pastelería</h1>
+            <h1 class="TituloPasteles" style="font-size: 35px;  font-family: Arial, Helvetica, sans-serif; ">DEIAX</h1>
+            <img src="./img/Logo_Invertido.png" style="width: 50%;">
+            
+        </div>
+        <div class="side1" style="flex: 25%; padding: 2%; display: block;">
+            <h1 class="TitulosFooter">Información</h1>
+            <div>
+                <img class="imgIcons" src="./img/Icon_telefono.png">
+                <p class="TextosFooter">2598-7810  || 2541-7865</p>
+            </div>   
+            <br>
+            <div >
+                <img class="imgIcons" src="./img/Icon_correo.png">
+                <p class="TextosFooter">pasteleria.deiax@deiax.cr.co</p>
+            </div>
+            <br>
+            <div >
+                <img class="imgIcons" src="./img/Icon_ubicacion.png">
+                <p class="TextosFooter">150 metros norte de la Municipalidad de Cartago.</p>
+            </div>
+            <br>
+            <div >
+                <img class="imgIcons" src="./img/Icon_horarios.png">
+                <p class="TextosFooter">Lunes a viernes 11:30am a 8:00pm || Sábados y domingos de 1:00pm a 6:00pm</p>
+            </div>
+        </div> 
+        <div class="side1" style="flex: 40%; padding: 2%;">
+            <h1 class="TitulosFooter" style="text-align: left;" >Redes sociales</h1>
+            <br>
+            <a href="https://www.facebook.com" style="display: block;">
+                <img class="imgRedesS" src="./img/Logo_Facebook.png">
+            </a>
+            
+            <a href="https://www.instagram.com/">
+                <img class="imgRedesS" src="./img/Logo_IG.png">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=84545117">
+                <img class="imgRedesS" src="./img/Logo_WhatsApp.png">
+            </a>
+        </div>
+       </div>
+       <hr>
+       <h1 class="TitulosFooter" style="font-size:14px;  text-align: center;">© 2022 DEIAX.com. Todos los derechos reservados</h1>
+    </div>
+</footer>
+</body>
+</html>
